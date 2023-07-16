@@ -1,0 +1,1 @@
+Here you have the library with some common functions that manipulate linked lists in C. I gained all the corresponding knowledge from the course on Udemy which was made by Kevin Brown. The link to the course: https://www.udemy.com/share/104Ph43@xnrGl6a-NnZqW5PL6gctx9Rr7EaBZH_k_E4CWk-k2FWElExND6nsOi5Z8tHajHbbXg==/
