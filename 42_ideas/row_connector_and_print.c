@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   row_connector.c                                    :+:      :+:    :+:   */
+/*   row_connector_and_print.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anshovah <anshovah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/16 20:48:43 by anshovah          #+#    #+#             */
-/*   Updated: 2023/07/16 21:00:00 by anshovah         ###   ########.fr       */
+/*   Updated: 2023/07/20 20:31:05 by anshovah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,31 @@ t_point	*ft_row_connector(t_point *head, int num_nodes, int col_max)
 		current = current->next;
 	}
 	return (head);
+}
+
+// printing function too visualize the way rows were connected
+
+void	ft_print_list(t_point *head)
+{
+	t_point	*current;
+
+	current = head;
+	while (current != NULL)
+	{
+		printf("Node (%d, %d, %d):\n", current->y, current->x, current->z);
+		printf("  - Down Pointer: ");
+		if (current->down != NULL)
+			printf("(%d, %d, %d)\n", current->down->y,
+				current->down->x, current->down->z);
+		else
+			printf("NULL\n");
+		printf("  - Next Pointer: ");
+		if (current->next != NULL)
+			printf("(%d, %d, %d)\n", current->next->y,
+				current->next->x, current->next->z);
+		else
+			printf("NULL\n");
+		printf("\n");
+		current = current->next;
+	}
 }
