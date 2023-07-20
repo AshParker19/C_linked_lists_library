@@ -1,6 +1,6 @@
-Some fucntions I developed for my projects.
+Some functions I developed for my projects.
 
-I made a nice fucntion which connects 2 "rows" of the linked list for FdF
+I made a nice function which connects 2 "rows" of the linked list for FdF
 and there's a printing fucntion to test it inthe same file.
 
 I have lots of functions, which I came up with for push_swap, most of them 
