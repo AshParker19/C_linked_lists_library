@@ -1,1 +1,2 @@
 -add all the fucntions from push_swap which I ended up not using
+-redo some fucntion for FDF maybe
