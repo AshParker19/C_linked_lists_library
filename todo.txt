@@ -3,5 +3,4 @@
 -organize everytihg better
 -write bettter comments
 -come up with some more ideas of linked lists usage
--do better
-
+-do worse
