@@ -2,3 +2,8 @@
 -redo some fucntion for FDF maybe
 -organize everytihg better
 -write bettter comments
+<<<<<<< HEAD
+=======
+-come up with some better ideas of linked lists usage
+I will be adding new ideas when I do next projects
+>>>>>>> d3b0b51c69875ad5071e381180904e9702383720
