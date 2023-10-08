@@ -2,4 +2,3 @@
 -redo some fucntion for FDF maybe
 -organize everytihg better
 -write bettter comments
--come up with some better ideas of linked lists usage
